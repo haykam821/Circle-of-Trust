@@ -1,3 +1,6 @@
 {
-    "name": "circle-of-trust"
+    "name": "circle-of-trust",
+    "dependencies": {
+        "request-promise-native": "^1.0.5"
+    }
 }
