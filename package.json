@@ -1,7 +1,34 @@
 {
-    "name": "circle-of-trust",
-    "dependencies": {
-        "request": "^2.85.0",
-        "request-promise-native": "^1.0.5"
-    }
+  "name": "circle-of-trust",
+  "dependencies": {
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "version": "1.0.0",
+  "description": "Get info about a user's circle.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haykam821/Circle-of-Trust.git"
+  },
+  "keywords": [
+    "reddit",
+    "april",
+    "fools",
+    "circle",
+    "trust",
+    "subreddit",
+    "joke",
+    "experiment"
+  ],
+  "author": "haykam821",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haykam821/Circle-of-Trust/issues"
+  },
+  "homepage": "https://github.com/haykam821/Circle-of-Trust#readme"
 }
