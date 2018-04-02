@@ -19,6 +19,7 @@ module.exports = ownerUsername => {
             betrayed: data.is_betrayed,
             score: data.score,
             key: data.vote_key,
+            members: data.score,
         });
     });
 };
