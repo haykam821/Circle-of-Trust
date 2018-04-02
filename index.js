@@ -8,7 +8,6 @@ module.exports = ownerUsername => {
         });
         const parsed = JSON.parse(body);
         const data = parsed[0].data.children[0].data;
-        console.log(data)
 
         resolve({
             name: data.title,
