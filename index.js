@@ -11,7 +11,7 @@ class Circle {
         this.key = data.vote_key;
         this.members = data.score;
         this.websocket = data.circlepost_websocket_url;
-        this.creation_date = new Date(data.created);
+        this.creation_date = new Date(data.created * 1000);
     }
 }
 
