@@ -10,6 +10,8 @@ class Circle {
         this.score = data.score;
         this.key = data.vote_key;
         this.members = data.score;
+        this.websocket = data.circlepost_websocket_url;
+        this.creation_date = new Date(data.created);
     }
 }
 
