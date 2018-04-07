@@ -17,8 +17,8 @@ describe("the function", () => {
 describe("the function's resolved result", () => {
 	const circler = circle(circleToTake);
 
-	it("should be an object", () => {
-		assert.eventually.typeOf(circler, "object");
+	it("should be object-like", () => {
+		return assert.eventually.isObject(circler);
 	});
 	it("should have the 8 properties", () => {
 		assert.eventually.hasAllKeys(circler, [
