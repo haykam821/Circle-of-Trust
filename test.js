@@ -1,5 +1,9 @@
 // These tests assume the Circle of Trust event is still running...
-const assert = require("chai").assert;
+const chai = require("chai");
+const chaiAsPromised = require("chai-as-promised");
+chai.use(chaiAsPromised);
+const assert = chai.assert;
+
 const circle = require("./index.js");
 
 const circleToTake = "MiamiZ";
@@ -10,14 +14,14 @@ describe("the function", () => {
 		assert.typeOf(promise, "promise");
 	});
 });
-describe("the function's result", async () => {
-	const circler = await circle(circleToTake);
+describe("the function's resolved result", () => {
+	const circler = circle(circleToTake);
 
 	it("should be an object", () => {
-		assert.typeOf(circler, "object");
+		assert.eventually.typeOf(circler, "object");
 	});
 	it("should have the 8 properties", () => {
-		assert.hasAllKeys(circler, [
+		assert.eventually.hasAllKeys(circler, [
 			"name",
 			"link",
 			"id",
