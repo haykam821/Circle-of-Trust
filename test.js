@@ -18,14 +18,14 @@ describe("the function's result", async () => {
 	});
 	it("should have the 8 properties", () => {
 		assert.hasAllKeys(circler, [
-			name,
-			link,
-			id,
-			owner,
-			betrayed,
-			score,
-			key,
-			members,
+			"name",
+			"link",
+			"id",
+			"owner",
+			"betrayed",
+			"score",
+			"key",
+			"members",
 		]);
 	});
 });
