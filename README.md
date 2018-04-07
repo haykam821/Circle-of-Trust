@@ -13,7 +13,7 @@ circleOfTrust("haykam821")
     .catch(console.error); // Failed to get circle info (e.g. no such user or circle)
 ```
 
-The promise resolves with an object containing information about the circle:
+The promise resolves with a Circle class containing information about the circle:
 
 Property | Type | Description
 --- | --- | ---
