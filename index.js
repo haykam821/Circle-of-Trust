@@ -1,6 +1,6 @@
 const request = require("request-promise-native");
 
-class Circle {
+class RedditCircle {
 	constructor(data) {
 		this.name = data.title;
 		this.link = data.url;
@@ -26,6 +26,6 @@ module.exports = ownerUsername => {
 		const parsed = JSON.parse(body);
 		const data = parsed[0].data.children[0].data;
 
-		resolve(new Circle(data));
+		resolve(new RedditCircle(data));
 	});
 };
