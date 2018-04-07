@@ -17,9 +17,9 @@ The promise resolves with a `RedditCircle` class containing information about th
 
 Property | Type | Description
 --- | --- | ---
-`circle.name` | String | The name given to the circle
-`circle.link` | String | A permalink to the circle
-`circle.id` | String | The circle's identifier
+`circle.name` | String | The name given to the circle.
+`circle.link` | String | A permalink to the circle.
+`circle.id` | String | The circle's identifier.
 `circle.owner` | String | The owner, good chance it'll be the person you specified.
 `circle.betrayed` | Boolean | Whether the circle has been betrayed or not.
 `circle.score`, `circle.members` | Number | The score of the circle.
