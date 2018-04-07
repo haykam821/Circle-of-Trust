@@ -20,16 +20,18 @@ describe("the function's resolved result", () => {
 	it("should be object-like", () => {
 		return assert.eventually.isObject(circler);
 	});
-	it("should have the 8 properties", () => {
-		assert.eventually.hasAllKeys(circler, [
+	it("should have only all the documented properties", () => {
+		return assert.eventually.hasAllKeys(circler, [
 			"name",
 			"link",
 			"id",
 			"owner",
 			"betrayed",
 			"score",
-			"key",
 			"members",
+			"key",
+			"websocket",
+			"creation_date",
 		]);
 	});
 });
