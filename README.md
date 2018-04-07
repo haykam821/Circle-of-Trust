@@ -1,4 +1,4 @@
-# Circle of Trust
+# Circle of Trust [![Build Status](https://travis-ci.org/haykam821/Circle-of-Trust.svg?branch=master)](https://travis-ci.org/haykam821/Circle-of-Trust)
 
 Get info about a user's circle.
 
