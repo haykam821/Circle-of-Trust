@@ -1,5 +1,7 @@
 # Circle of Trust [![Build Status](https://travis-ci.org/haykam821/Circle-of-Trust.svg?branch=master)](https://travis-ci.org/haykam821/Circle-of-Trust)
 
+**All circle functionality and endpoints have been removed from the Reddit website, so unfortunately this library will no longer work.**
+
 Get info about a user's circle.
 
 ## Documentation
