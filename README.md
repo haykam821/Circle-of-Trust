@@ -1,6 +1,6 @@
 # Circle of Trust
 
-[![Travis (.com)](https://img.shields.io/travis/com/haykam821/Circle-of-Trust.svg?style=popout)](https://travis-ci.com/haykam821/Circle-of-Trust)
+[![Travis (.org)](https://img.shields.io/travis/org/haykam821/Circle-of-Trust.svg?style=popout)](https://travis-ci.org/haykam821/Circle-of-Trust)
 
 **All circle functionality and endpoints have been removed from the Reddit website, so unfortunately this library will no longer work.**
 
