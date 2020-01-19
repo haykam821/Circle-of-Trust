@@ -4,7 +4,7 @@ const chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised);
 const assert = chai.assert;
 
-const circle = require("./index.js");
+const circle = require(".");
 
 const circleToTake = "MiamiZ";
 const promise = circle(circleToTake);
