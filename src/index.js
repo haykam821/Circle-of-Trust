@@ -1,6 +1,11 @@
 const request = require("request-promise-native");
 const RedditCircle = require("./reddit-circle.js");
 
+/**
+ * Fetches a user's circle.
+ * @param {string} ownerUsername The Reddit username of the circle's owner.
+ * @returns {RedditCircle} The fetched circle.
+ */
 async function fetchCircle(ownerUsername) {
 	const body = await request({
 		method: "GET",
