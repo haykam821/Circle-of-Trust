@@ -1,3 +1,5 @@
+/* eslint-env mocha */
+
 // These tests assume the Circle of Trust event is still running...
 const chai = require("chai");
 const chaiAsPromised = require("chai-as-promised");
