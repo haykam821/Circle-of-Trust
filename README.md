@@ -1,4 +1,4 @@
-# Circle of Trust [![Build Status](https://travis-ci.org/haykam821/Circle-of-Trust.svg?branch=master)](https://travis-ci.org/haykam821/Circle-of-Trust)
+# Circle of Trust [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/haykam821/Circle-of-Trust/Test?style=popout)](https://github.com/haykam821/Circle-of-Trust/actions/workflows/test.yml)
 
 **All circle functionality and endpoints have been removed from the Reddit website, so unfortunately this library will no longer work.**
 
